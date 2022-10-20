@@ -1,6 +1,7 @@
 mod formatting;
 mod primitives;
 mod custom_types;
+mod variable_bindings;
 
 fn main() {
     println!("================= Formatting =================");
@@ -9,4 +10,6 @@ fn main() {
     primitives::call_all();
     println!("================= Custom Types =================");
     custom_types::call_all();
+    println!("================= Variable Bindings =================");
+    variable_bindings::call_all();
 }
