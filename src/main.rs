@@ -3,6 +3,7 @@ mod primitives;
 mod custom_types;
 mod variable_bindings;
 mod types;
+mod conversion;
 
 fn main() {
     println!("================= Formatting =================");
@@ -15,4 +16,6 @@ fn main() {
     variable_bindings::call_all();
     println!("================= Types =================");
     types::call_all();
+    println!("================= Conversion =================");
+    conversion::call_all();
 }
