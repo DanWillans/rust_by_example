@@ -4,6 +4,7 @@ mod custom_types;
 mod variable_bindings;
 mod types;
 mod conversion;
+mod expressions;
 
 fn main() {
     println!("================= Formatting =================");
@@ -18,4 +19,6 @@ fn main() {
     types::call_all();
     println!("================= Conversion =================");
     conversion::call_all();
+    println!("================= Expressions =================");
+    expressions::call_all();
 }
