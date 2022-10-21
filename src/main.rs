@@ -6,6 +6,7 @@ mod types;
 mod conversion;
 mod expressions;
 mod flow_of_control;
+mod functions;
 
 fn main() {
     println!("================= Formatting =================");
@@ -24,4 +25,6 @@ fn main() {
     expressions::call_all();
     println!("================= Flow Of Control =================");
     flow_of_control::call_all();
+    println!("================= Functions =================");
+    functions::call_all();
 }
