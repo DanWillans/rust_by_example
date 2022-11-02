@@ -8,6 +8,8 @@ mod expressions;
 mod flow_of_control;
 mod functions;
 mod modules;
+mod attributes;
+mod generics;
 
 fn main() {
     println!("================= Formatting =================");
@@ -30,4 +32,8 @@ fn main() {
     functions::call_all();
     println!("================= Modules =================");
     modules::call_all();
+    println!("================= Attributes =================");
+    attributes::call_all();
+    println!("================= Generics =================");
+    generics::call_all();
 }
