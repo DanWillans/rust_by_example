@@ -11,6 +11,7 @@ mod modules;
 mod attributes;
 mod generics;
 mod scoping_rules;
+mod traits;
 
 fn main() {
     println!("================= Formatting =================");
@@ -39,4 +40,6 @@ fn main() {
     generics::call_all();
     println!("================= Scoping Rules =================");
     scoping_rules::call_all();
+    println!("================= Traits =================");
+    traits::call_all();
 }
